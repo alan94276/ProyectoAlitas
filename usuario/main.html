@@ -5,11 +5,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <title>Pagina inicial Index</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="../css/bootstrap.css" rel="stylesheet">
@@ -65,39 +61,14 @@
 
                 <!--izquierdo-->
                 <div class="col-2">
-                    <h1 class="display-5">Estás en la mesa: 1</h1>
-                    <div class="list-group">
-                        <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
-                            <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1">List group item heading</h5>
-                                <small>3 days ago</small>
-                            </div>
-                            <p class="mb-1">Some placeholder content in a paragraph.</p>
-                            <small>And some small print.</small>
-                        </a>
-                        <a href="#" class="list-group-item list-group-item-action">
-                            <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1">List group item heading</h5>
-                                <small class="text-muted">3 days ago</small>
-                            </div>
-                            <p class="mb-1">Some placeholder content in a paragraph.</p>
-                            <small class="text-muted">And some muted small print.</small>
-                        </a>
-                        <a href="#" class="list-group-item list-group-item-action">
-                            <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1">List group item heading</h5>
-                                <small class="text-muted">3 days ago</small>
-                            </div>
-                            <p class="mb-1">Some placeholder content in a paragraph.</p>
-                            <small class="text-muted">And some muted small print.</small>
-                        </a>
-                    </div>
-                </div>
+                    <h1 class="display-5">Estás en la mesa: <span class="text-black-50" id="numTable">1</span></h1>
+                    <button class="btn btn-lg btn-warning">Seleccionar mesa</button>
 
+                </div>
                 <!--Centro-->
                 <div class="col-7">
 
-                    <h1 class="display-1">Bienvenido: usuario</h1>
+                    <h1 class="display-1">Bienvenido: <span id="nameUser">usuario</span></h1>
                     <!--acordeon-->
                     <div class="accordion " id="accordionExample">
 
@@ -126,19 +97,7 @@
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                <div class="accordion-body row col-12">
-
-                                    <div class="container-fluid d-flex justify-content-center col-4" id="card4">
-                                        <div class="card">
-                                            <img src="" class="card-img-top" >
-                                            <div class="card-body">
-                                                <h5 class="card-title">Esto es un producto </h5>
-                                                <p class="card-text">esta es la descripcion de un producto .</p>
-                                                <a href="#" class="btn btn-primary">agregar al carrito.</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
+                                <div class="accordion-body row col-12" id="containerBebidas">
 
                                 </div>
                             </div>
@@ -152,50 +111,18 @@
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body row col-12">
-                                    <div class="container-fluid d-flex justify-content-center col-3 " id="card7">
-                                        <div class="row "></div>
-                                        <div class="card" style="width: 18rem;">
-                                            <img src="..." class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Esto es un producto </h5>
-                                                <p class="card-text">esta es la descripcion de un producto .</p>
-                                                <a href="#" class="btn btn-primary">agregar al carrito.</a>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="accordion-body row col-12" id="containerPromos">
 
-                                    <div class="container-fluid d-flex justify-content-center col-3" id="card8">
-                                        <div class="row "></div>
-                                        <div class="card" style="width: 18rem;">
-                                            <img src="..." class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Esto es un producto </h5>
-                                                <p class="card-text">esta es la descripcion de un producto .</p>
-                                                <a href="#" class="btn btn-primary">agregar al carrito.</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="container-fluid d-flex justify-content-center col-3" id="card9">
-                                        <div class="row "></div>
-                                        <div class="card" style="width: 18rem;">
-                                            <img src="..." class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Esto es un producto </h5>
-                                                <p class="card-text">esta es la descripcion de un producto .</p>
-                                                <a href="#" class="btn btn-primary">agregar al carrito.</a>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
+
+
                     </div>
                 </div>
 
                 <!--derecho-->
-                <div class="col-3">
+                <div class="col-3" id="divRigth">
 
                     <h1 class="display-5">Tu carrito:</h1>
 
@@ -214,7 +141,7 @@
                         </div>
                     </div>
 
-                    <button id="idButtonPagar">pagar</button>
+                    <button id="idButtonPagar" class="btn btn-danger m-4">Pagar</button>
 
                 </div>
 
@@ -226,9 +153,8 @@
 
     </div>
 
-    <script src="main.js"></script>
-    <script src="../js/bootstrap.bundle.js"></script>
-    <script src="../js/bootstrap.esm.js"></script>
+    <script src="main.js" type="module"></script>
+    <script src="../js/bootstrap.js"></script>
 
 </body>
 </html>

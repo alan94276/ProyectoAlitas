@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="45c00008-66e2-4a83-8dec-6efab8648c21" name="Default Changelist" comment="Añadido de fetch para peticiones json y servicios php para su guardado y consulta">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/empleados/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/PTU3C.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuario/ProductServices.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuario/bebidas.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuario/products.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuario/promos.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuario/CardProducto.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuario/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuario/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/usuario/main.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="alan94276 &lt;alanlopez94276@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1r09KqgEpjVZm6LHsQLZgjsO036" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45c00008-66e2-4a83-8dec-6efab8648c21" name="Default Changelist" comment="" />
+      <created>1618102083427</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618102083427</updated>
+      <workItem from="1618102088106" duration="106000" />
+      <workItem from="1618102225710" duration="124000" />
+      <workItem from="1618102375750" duration="9441000" />
+      <workItem from="1618154339031" duration="2949000" />
+      <workItem from="1618163142424" duration="33351000" />
+      <workItem from="1618210156064" duration="247000" />
+      <workItem from="1618242414053" duration="11166000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Añadido de fetch para peticiones json y servicios php para su guardado y consulta" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadido de fetch para peticiones json y servicios php para su guardado y consulta" />
+  </component>
+</project>
